@@ -8,5 +8,19 @@ header:
   image: "/images/cover.jpg"
 ___
 
-I am Data Engineer with strong fundamentals in designing, building and automating scalable data pipelines.<br/>
-I have 3 years of professional experience as software engineer with strong fundamentals in programming and problem solving skills.
+Projects:
+  GitXplore
+  PharmacyCounting
+  Mutlilevel Queue scheduling algorithm
+
+
+  {% include base_path %}
+  {% include group-by-array collection=site.posts field="tags" %}
+
+  {% for tag in group_names %}
+    {% assign posts = group_items[forloop.index0] %}
+    <h2 id="{{ tag | slugify }}" class="archive__subtitle">{{ tag }}</h2>
+    {% for post in posts %}
+      {% include archive-single.html %}
+    {% endfor %}
+  {% endfor %}
