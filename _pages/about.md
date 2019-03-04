@@ -1,8 +1,9 @@
 ---
 #title: "About"
 permalink: /about/
+
 #header:
-  image: "/images/cover.jpeg"
+  #image: "/images/cover.jpeg"
 ---
 
 I am Data Engineer with strong fundamentals in designing, building and automating scalable data pipelines.<br/>
