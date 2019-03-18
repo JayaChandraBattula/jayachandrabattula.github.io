@@ -87,7 +87,7 @@ author:
   name             : "Jaya Chandra Battula"
   avatar           : "/images/prof_pic.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Data Engineer"
-  location         : "Cincinnati, OH"
+  location         : "Chicago, IL"
   email            : "jayachandrabattula@gmail.com"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
