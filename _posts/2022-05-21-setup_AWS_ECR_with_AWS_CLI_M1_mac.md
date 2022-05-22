@@ -44,7 +44,7 @@ categories: jekyll update
     docker build -t <image-name> .
     ```
 
--Update the tag of the image which resembles the repository folder structure in AWS ECR.
+- Update the tag of the image which resembles the repository folder structure in AWS ECR.
     ```
     docker tag <current_image>:<tag> <account-id>.dkr.ecr.<region>.amazonaws.com/<repo-name>:latest
     ```
